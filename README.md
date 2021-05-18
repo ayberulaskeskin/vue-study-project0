@@ -1,2 +1,2 @@
 # example 
-## this is my first interaction with vue.js within the scope of the online training I received.
+## this is my first interaction with vue.js within the scope of the [online udemy training](https://www.udemy.com/course/sifirdan-ileri-seviye-vuejs-2-vuex-vue-router-egitim-seti/learn/lecture/11189074?start=0#overview) I received.
