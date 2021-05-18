@@ -12,11 +12,12 @@
     <p>{{age*5}}</p>
     <p>{{randomNumber()}}</p>
     
-   
-
-    
-    
+    <p><img v-bind:src="imageLink" style="width:10% ;"  alt="" ></p>
+      
   </div>
+
+
+
   <script type="text/javascript">
     new Vue(
             {
@@ -24,7 +25,9 @@
                 data:{
                       name:"Ayber ",
                       age:"28",
-                      number:""
+                      number:"",
+                      imageLink:"https://migros-dali-storage-prod.global.ssl.fastly.net/sanalmarket/product/37502343/37502343-8b3a3a-1650x1650.jpg"
+
                      },
             
             methods:
