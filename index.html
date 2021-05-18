@@ -7,9 +7,11 @@
 </head>
 <body>
   <div id="app">
+   
     <h1>{{title}}</h1>
     <hr>
-    <input type="text" v-on:input="changeTitle" >
+
+    <input type="text"v-on:input="changeTitle"  >
     <p>{{description}}</p>
   </div>
   <script type="text/javascript">
@@ -17,17 +19,17 @@
             {
                 el:"#app",
                 data:{
-                      title:"Merhaba ",
-                      description:"Açıklama"
+                      title:"Ayber ",
+                      description:"28"
                      },
                 methods:{
-                         changeTitle :function()
+                         changeTitle :function(event)
                           {
-                            alert();
+                            this.description=event.target.value;
                           }
                         }
               }
-           )
+              );
 
   </script>
   
