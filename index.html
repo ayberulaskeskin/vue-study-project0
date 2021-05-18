@@ -8,28 +8,32 @@
 <body>
   <div id="app">
    
-    <h1>{{title}}</h1>
-    <hr>
+    <p>{{name}}({{age}})</p>
+    <p>{{age*5}}</p>
+    <p>{{number}}</p>
+    
+   
 
-    <input type="text"v-on:input="changeTitle"  >
-    <p>{{description}}</p>
+    
+    
   </div>
   <script type="text/javascript">
     new Vue(
             {
                 el:"#app",
                 data:{
-                      title:"Ayber ",
-                      description:"28"
+                      name:"Ayber ",
+                      age:"28",
+                      number:""
                      },
-                methods:{
-                         changeTitle :function(event)
-                          {
-                            this.description=event.target.value;
-                          }
-                        }
-              }
-              );
+            
+            methods:
+            {
+              
+              
+            }
+          },
+          );
 
   </script>
   
