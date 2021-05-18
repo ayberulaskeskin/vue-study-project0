@@ -10,7 +10,7 @@
    
     <p>{{name}}({{age}})</p>
     <p>{{age*5}}</p>
-    <p>{{number}}</p>
+    <p>{{randomNumber()}}</p>
     
    
 
@@ -29,7 +29,10 @@
             
             methods:
             {
-              
+              randomNumber:function()
+              {
+               return this.number=Math.random()
+              }
               
             }
           },
